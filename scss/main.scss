@@ -1,0 +1,123 @@
+@import 'config';
+
+//Layout//
+section {
+    margin: 5rem auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    
+    .card {
+        margin: auto;
+        padding: 2.5rem;
+        width: 70%;
+        
+    }
+
+
+
+    .card--one {
+        background-color: $primarycolor-orange;
+        border-radius: .5rem .5rem 0 0;
+    }
+
+    .card--two {
+        background-color: $primarycolor-cyan;
+    }
+
+    .card--three {
+        background-color: $primarycolor-dark;
+        border-radius: 0 0 .5rem .5rem;
+    
+
+    }
+    
+}
+
+//Typography//
+body {
+    font-size: $fs;
+}
+.card__head {
+    text-transform: uppercase;
+    font-family: $fontBSD;
+    font-size: 2rem;
+    color: $secondarycolor-accent;
+}
+.card__text {
+    font-family: $fontLexend;
+    color: $secondarycolor-p;
+    margin-bottom: 2.5rem;
+}
+.card__link {
+    font-family: $fontLexend;
+    text-decoration: none;
+}
+
+//Responsive//
+@media (min-width: $min-width) {
+
+   section {
+       justify-content: center;
+       flex-direction: row;
+       width: 45%;
+       margin: 10rem auto;
+       .card {
+           width: 100%;
+
+       }
+    .card--one {
+        background-color: $primarycolor-orange;
+        border-radius: .5rem 0 0 .5rem;
+    }
+
+    .card--two {
+        background-color: $primarycolor-cyan;
+    }
+
+    .card--three {
+        background-color: $primarycolor-dark;
+        border-radius: 0 .5rem .5rem 0;
+
+    }
+
+    }
+}
+
+//buttons//
+
+.card__link {
+    padding: 1rem;
+    border: 2px solid $secondarycolor-accent;
+    background-color: $secondarycolor-accent;
+    border-radius: 2rem;
+}
+
+.card__link:hover {
+    padding: 1rem;
+    color: $secondarycolor-accent;
+}
+
+.link1 {
+    color: $primarycolor-orange;
+}
+
+.link1:hover {
+    background-color: $primarycolor-orange;
+}
+
+.link2 {
+    color: $primarycolor-cyan
+}
+
+.link2:hover {
+    background-color: $primarycolor-cyan;
+}
+
+.link3 {
+    color: $primarycolor-dark;
+}
+
+.link3:hover {
+    background-color: $primarycolor-dark;
+}

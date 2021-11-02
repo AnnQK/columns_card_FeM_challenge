@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+
+//colors//
+$primarycolor-orange:  hsl(31, 77%, 52%);
+$primarycolor-cyan: hsl(184, 100%, 22%);
+$primarycolor-dark: hsl(179, 100%, 13%);
+
+$secondarycolor-p: hsla(0, 0%, 100%, 0.75);
+$secondarycolor-accent: hsl(0, 0%, 95%);
+
+//Typography//
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+$fs: 15px;
+
+$fontLexend: 'Lexend Deca', sans-serif;
+$fontBSD: 'Big Shoulders Display', cursive;
+
+
+//Responsive//
+
+$max-width: 375px;
+$min-width: 1440px;

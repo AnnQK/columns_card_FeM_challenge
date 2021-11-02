@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section {
+  margin: 5rem auto;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section .card {
+  margin: auto;
+  padding: 2.5rem;
+  width: 70%;
+}
+
+section .card--one {
+  background-color: #e38826;
+  border-radius: .5rem .5rem 0 0;
+}
+
+section .card--two {
+  background-color: #006970;
+}
+
+section .card--three {
+  background-color: #004241;
+  border-radius: 0 0 .5rem .5rem;
+}
+
+body {
+  font-size: 15px;
+}
+
+.card__head {
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2rem;
+  color: #f2f2f2;
+}
+
+.card__text {
+  font-family: "Lexend Deca", sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 2.5rem;
+}
+
+.card__link {
+  font-family: "Lexend Deca", sans-serif;
+  text-decoration: none;
+}
+
+@media (min-width: 1440px) {
+  section {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 45%;
+    margin: 10rem auto;
+  }
+  section .card {
+    width: 100%;
+  }
+  section .card--one {
+    background-color: #e38826;
+    border-radius: .5rem 0 0 .5rem;
+  }
+  section .card--two {
+    background-color: #006970;
+  }
+  section .card--three {
+    background-color: #004241;
+    border-radius: 0 .5rem .5rem 0;
+  }
+}
+
+.card__link {
+  padding: 1rem;
+  border: 2px solid #f2f2f2;
+  background-color: #f2f2f2;
+  border-radius: 2rem;
+}
+
+.card__link:hover {
+  padding: 1rem;
+  color: #f2f2f2;
+}
+
+.link1 {
+  color: #e38826;
+}
+
+.link1:hover {
+  background-color: #e38826;
+}
+
+.link2 {
+  color: #006970;
+}
+
+.link2:hover {
+  background-color: #006970;
+}
+
+.link3 {
+  color: #004241;
+}
+
+.link3:hover {
+  background-color: #004241;
+}
+/*# sourceMappingURL=main.css.map */
