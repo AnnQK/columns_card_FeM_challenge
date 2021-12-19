@@ -1,7 +1,9 @@
-3 colunm preview card from Front-end Mentors challenge
+# 3 colunm preview card from Front-end Mentors challenge
 
-tools: 
+### Tools: 
+---
 - HTML and CSS
 - SASS
 - responsive design and media queries
 - tried BEM
+---
