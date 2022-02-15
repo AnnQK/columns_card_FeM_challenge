@@ -9,3 +9,4 @@
 - responsive design and media queries
 - tried BEM
 ---
+[Project on github pages](https://annqk.github.io/columns_card_FeM_challenge/)
